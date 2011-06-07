@@ -1,0 +1,1 @@
+gcc -g -Wall -O2 -fPIC -m64 -D_FILE_OFFSET_BITS=64 -D_USE_KNETFILE main.c bgzf.c kstring.c knetfile.c index.c bedidx.c -Lwin32 -L. -Iwin32 -o tabix.exe -lz -lwsock32
